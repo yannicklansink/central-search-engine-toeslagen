@@ -18,16 +18,16 @@ db = client.sample_mflix
 collection = db.movies
 
 # CODE TO GENERATE THE EMBEDDINGS FROM A COLLECTION IN MONGODB ATLAS DATABASE
-# def generate_embedding(text: str) -> list[float]:
-#   response = requests.post(
-#     embedding_url,
-#     headers={"Authorization": f"Bearer {hf_token}"},
-#     json={"inputs": text})
+def generate_embedding(text: str) -> list[float]:
+  response = requests.post(
+    embedding_url,
+    headers={"Authorization": f"Bearer {hf_token}"},
+    json={"inputs": text})
 
-#   if response.status_code != 200:
-#     raise ValueError(f"Request failed with status code {response.status_code}: {response.text}")
+  if response.status_code != 200:
+    raise ValueError(f"Request failed with status code {response.status_code}: {response.text}")
 
-#   return response.json()
+  return response.json()
 
 # for doc in collection.find({'plot':{"$exists": True}}).limit(50):
 #   doc['plot_embedding_hf'] = generate_embedding(doc['plot']) # Adding a new field with the embedding to the document DB
