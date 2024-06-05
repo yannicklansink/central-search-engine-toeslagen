@@ -1,5 +1,10 @@
 from dotenv import load_dotenv
 import os
+from langchain_openai import ChatOpenAI
+import getpass
+from langchain_core.messages import HumanMessage, SystemMessage
+from langchain_core.output_parsers import StrOutputParser
+from langchain_core.prompts import ChatPromptTemplate
 
 # Laad de variabelen uit het .env bestand
 load_dotenv()
@@ -7,27 +12,40 @@ load_dotenv()
 # Gebruik de variabelen
 tracing = os.getenv('LANGCHAIN_TRACING_V2')
 endpoint = os.getenv('LANGCHAIN_ENDPOINT')
-api_key = os.getenv('LANGCHAIN_API_KEY')
+api_key_langchain = os.getenv('LANGCHAIN_API_KEY')
+api_key_openai = os.getenv('OPENAI_API_KEY')
 
-print(f'Tracing: {tracing}')
-print(f'Endpoint: {endpoint}')
-print(f'API Key: {api_key}')
+# print(f'Tracing: {tracing}')
+# print(f'Endpoint: {endpoint}')
+# print(f'Langchain API Key: {api_key_langchain}')
+# print(f'OpenAI API Key: {api_key_openai}')
 
-import openai
-from langsmith.wrappers import wrap_openai
-from langsmith import traceable
+model = ChatOpenAI(model="gpt-4")
+parser = StrOutputParser()
 
-# Auto-trace LLM calls in-context
-client = wrap_openai(openai.Client())
+# messages = [
+#     SystemMessage(content="Translate the following from English into Italian"),
+#     HumanMessage(content="hi!"),
+# ]
 
-@traceable # Auto-trace this function
-def pipeline(user_input: str):
-    result = client.chat.completions.create(
-        messages=[{"role": "user", "content": user_input}],
-        model="gpt-3.5-turbo"
-    )
-    return result.choices[0].message.content
 
-pipeline("Hello, world!")
-print("test")
-# Out:  Hello there! How can I assist you today?
+# Chain -> RunnableSequence
+# chain = model | parser 
+# chain.invoke(messages)
+
+#ChatPromptTemplate
+system_template = "Translate the following into {language}:"
+
+prompt_template = ChatPromptTemplate.from_messages(
+    [("system", system_template), ("user", "{text}")]
+)
+# result = prompt_template.invoke({"language": "italian", "text": "hi"})
+
+chain = prompt_template | model | parser
+result = chain.invoke({
+        "language": "italian",
+        "text": "hi"
+    })
+
+
+print(result)
