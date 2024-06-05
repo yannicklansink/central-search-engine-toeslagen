@@ -1,0 +1,17 @@
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\obj\Debug\net7.0\langserve-client-console-app.csproj.AssemblyReference.cache
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\obj\Debug\net7.0\langserve-client-console-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\obj\Debug\net7.0\langserve-client-console-app.AssemblyInfoInputs.cache
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\obj\Debug\net7.0\langserve-client-console-app.AssemblyInfo.cs
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\obj\Debug\net7.0\langserve-client-console-app.csproj.CoreCompileInputs.cache
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\bin\Debug\net7.0\langserve-client-console-app.exe
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\bin\Debug\net7.0\langserve-client-console-app.deps.json
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\bin\Debug\net7.0\langserve-client-console-app.runtimeconfig.json
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\bin\Debug\net7.0\langserve-client-console-app.dll
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\bin\Debug\net7.0\langserve-client-console-app.pdb
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\obj\Debug\net7.0\langserve-client-console-app.csproj.CopyComplete
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\obj\Debug\net7.0\langserve-client-console-app.dll
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\obj\Debug\net7.0\refint\langserve-client-console-app.dll
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\obj\Debug\net7.0\langserve-client-console-app.pdb
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\obj\Debug\net7.0\langserve-client-console-app.genruntimeconfig.cache
+C:\WORK\Afstuderen\langserve-client-console-app\langserve-client-console-app\obj\Debug\net7.0\ref\langserve-client-console-app.dll
