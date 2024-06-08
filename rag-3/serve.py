@@ -7,6 +7,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import ChatOpenAI
 from langserve import add_routes
 from dotenv import load_dotenv
+from fastapi.middleware.cors import CORSMiddleware
 import os
 
 # Laad de variabelen uit het .env bestand
@@ -44,7 +45,6 @@ app = FastAPI(
   description="A simple API server using LangChain's Runnable interfaces",
 )
 
-from fastapi.middleware.cors import CORSMiddleware
 
 # Set all CORS enabled origins
 app.add_middleware(
