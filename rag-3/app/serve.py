@@ -58,7 +58,7 @@ app.add_middleware(
 # Adding a simple root route
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the LangChain Server"}
+    return {"message": "Welcome to the LangChain Server!!!!!!!"}
 
 # 5. Adding chain route
 add_routes(

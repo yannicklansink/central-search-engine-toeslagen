@@ -1,0 +1,61 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+
+    - name: Log in to Docker Hub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+
+    - name: Build and push Docker image
+      id: docker_build
+      uses: docker/build-push-action@v2
+      with:
+        context: .
+        push: true
+        tags: yourusername/langchain-server:latest
+
+    - name: Azure Login
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - name: Get secrets from Azure Key Vault
+      id: get_secrets
+      run: |
+        AZURE_KEYVAULT_NAME=myKeyVault
+        LANGCHAIN_TRACING_V2=$(az keyvault secret show --name langchain-tracing-v2 --vault-name $AZURE_KEYVAULT_NAME --query value -o tsv)
+        LANGCHAIN_ENDPOINT=$(az keyvault secret show --name langchain-endpoint --vault-name $AZURE_KEYVAULT_NAME --query value -o tsv)
+        LANGCHAIN_API_KEY=$(az keyvault secret show --name langchain-api-key --vault-name $AZURE_KEYVAULT_NAME --query value -o tsv)
+        OPENAI_API_KEY=$(az keyvault secret show --name openai-api-key --vault-name $AZURE_KEYVAULT_NAME --query value -o tsv)
+        echo "LANGCHAIN_TRACING_V2=$LANGCHAIN_TRACING_V2" >> $GITHUB_ENV
+        echo "LANGCHAIN_ENDPOINT=$LANGCHAIN_ENDPOINT" >> $GITHUB_ENV
+        echo "LANGCHAIN_API_KEY=$LANGCHAIN_API_KEY" >> $GITHUB_ENV
+        echo "OPENAI_API_KEY=$OPENAI_API_KEY" >> $GITHUB_ENV
+
+    - name: Update Azure Container Instance
+      run: |
+        az container create \
+          --resource-group langchainServer \
+          --name server-container2 \
+          --image yourusername/langchain-server:latest \
+          --restart-policy OnFailure \
+          --ports 80 \
+          --ip-address Public \
+          --dns-name-label mylangchainserver \
+          --environment-variables LANGCHAIN_TRACING_V2=${{ env.LANGCHAIN_TRACING_V2 }} LANGCHAIN_ENDPOINT=${{ env.LANGCHAIN_ENDPOINT }} LANGCHAIN_API_KEY=${{ env.LANGCHAIN_API_KEY }} OPENAI_API_KEY=${{ env.OPENAI_API_KEY }}
