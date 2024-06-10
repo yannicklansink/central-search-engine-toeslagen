@@ -35,18 +35,12 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    - name: Get secrets from Azure Key Vault
-      id: get_secrets
+    - name: Set environment variables from GitHub Secrets
       run: |
-        AZURE_KEYVAULT_NAME=keyVaultLangchainServer
-        LANGCHAIN_TRACING_V2=$(az keyvault secret show --name langchain-tracing-v2 --vault-name $AZURE_KEYVAULT_NAME --query value -o tsv)
-        LANGCHAIN_ENDPOINT=$(az keyvault secret show --name langchain-endpoint --vault-name $AZURE_KEYVAULT_NAME --query value -o tsv)
-        LANGCHAIN_API_KEY=$(az keyvault secret show --name langchain-api-key --vault-name $AZURE_KEYVAULT_NAME --query value -o tsv)
-        OPENAI_API_KEY=$(az keyvault secret show --name openai-api-key --vault-name $AZURE_KEYVAULT_NAME --query value -o tsv)
-        echo "LANGCHAIN_TRACING_V2=$LANGCHAIN_TRACING_V2" >> $GITHUB_ENV
-        echo "LANGCHAIN_ENDPOINT=$LANGCHAIN_ENDPOINT" >> $GITHUB_ENV
-        echo "LANGCHAIN_API_KEY=$LANGCHAIN_API_KEY" >> $GITHUB_ENV
-        echo "OPENAI_API_KEY=$OPENAI_API_KEY" >> $GITHUB_ENV
+        echo "LANGCHAIN_TRACING_V2=${{ secrets.LANGCHAIN_TRACING_V2 }}" >> $GITHUB_ENV
+        echo "LANGCHAIN_ENDPOINT=${{ secrets.LANGCHAIN_ENDPOINT }}" >> $GITHUB_ENV
+        echo "LANGCHAIN_API_KEY=${{ secrets.LANGCHAIN_API_KEY }}" >> $GITHUB_ENV
+        echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> $GITHUB_ENV
 
     - name: Update Azure Container Instance
       run: |
