@@ -44,7 +44,11 @@ jobs:
       run: |
         echo "Environment variables are set."
 
-    - name: Update Azure Container Instance
+    - name: Delete existing Azure Container Instance
+      run: |
+        az container delete --resource-group langchainServer --name server-container2 --yes
+
+    - name: Create new Azure Container Instance
       run: |
         az container create \
           --resource-group langchainServer \
