@@ -38,7 +38,7 @@ jobs:
     - name: Get secrets from Azure Key Vault
       id: get_secrets
       run: |
-        AZURE_KEYVAULT_NAME=myKeyVault
+        AZURE_KEYVAULT_NAME=keyVaultLangchainServer
         LANGCHAIN_TRACING_V2=$(az keyvault secret show --name langchain-tracing-v2 --vault-name $AZURE_KEYVAULT_NAME --query value -o tsv)
         LANGCHAIN_ENDPOINT=$(az keyvault secret show --name langchain-endpoint --vault-name $AZURE_KEYVAULT_NAME --query value -o tsv)
         LANGCHAIN_API_KEY=$(az keyvault secret show --name langchain-api-key --vault-name $AZURE_KEYVAULT_NAME --query value -o tsv)
