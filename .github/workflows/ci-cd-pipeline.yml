@@ -35,12 +35,14 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    - name: Set environment variables from GitHub Secrets
+    - name: Set environment variables
+      env:
+        LANGCHAIN_TRACING_V2: ${{ secrets.LANGCHAIN_TRACING_V2 }}
+        LANGCHAIN_ENDPOINT: ${{ secrets.LANGCHAIN_ENDPOINT }}
+        LANGCHAIN_API_KEY: ${{ secrets.LANGCHAIN_API_KEY }}
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
-        echo "LANGCHAIN_TRACING_V2=${{ secrets.LANGCHAIN_TRACING_V2 }}" >> $GITHUB_ENV
-        echo "LANGCHAIN_ENDPOINT=${{ secrets.LANGCHAIN_ENDPOINT }}" >> $GITHUB_ENV
-        echo "LANGCHAIN_API_KEY=${{ secrets.LANGCHAIN_API_KEY }}" >> $GITHUB_ENV
-        echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> $GITHUB_ENV
+        echo "Environment variables are set."
 
     - name: Update Azure Container Instance
       run: |
@@ -52,4 +54,4 @@ jobs:
           --ports 80 \
           --ip-address Public \
           --dns-name-label mylangchainserver \
-          --environment-variables LANGCHAIN_TRACING_V2=${{ env.LANGCHAIN_TRACING_V2 }} LANGCHAIN_ENDPOINT=${{ env.LANGCHAIN_ENDPOINT }} LANGCHAIN_API_KEY=${{ env.LANGCHAIN_API_KEY }} OPENAI_API_KEY=${{ env.OPENAI_API_KEY }}
+          --environment-variables LANGCHAIN_TRACING_V2=${{ secrets.LANGCHAIN_TRACING_V2 }} LANGCHAIN_ENDPOINT=${{ secrets.LANGCHAIN_ENDPOINT }} LANGCHAIN_API_KEY=${{ secrets.LANGCHAIN_API_KEY }} OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
