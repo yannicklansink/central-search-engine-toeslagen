@@ -45,7 +45,6 @@ app = FastAPI(
   description="A simple API server using LangChain's Runnable interfaces",
 )
 
-
 # Set all CORS enabled origins
 app.add_middleware(
     CORSMiddleware,
@@ -56,6 +55,11 @@ app.add_middleware(
     expose_headers=["*"],
 )
 
+# Adding a simple root route
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the LangChain Server"}
+
 # 5. Adding chain route
 add_routes(
     app,
@@ -63,7 +67,8 @@ add_routes(
     path="/chain",
 )
 
+
+
 if __name__ == "__main__":
     import uvicorn
-
-    uvicorn.run(app, host="localhost", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8000) # Host veranderen naar "0.0.0.0" en niet localhost
