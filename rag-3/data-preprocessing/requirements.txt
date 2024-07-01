@@ -1,0 +1,5 @@
+langchain-pinecone
+langchain-openai
+langchain
+langchain-community
+pinecone-notebooks
