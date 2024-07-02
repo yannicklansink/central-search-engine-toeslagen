@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("langserve-client-console-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c4b33711e2167d352d8d7b833cdcb4e332c761d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+103ecb5d61a3817a2d5b0fa3f5596597b4e49903")]
 [assembly: System.Reflection.AssemblyProductAttribute("langserve-client-console-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("langserve-client-console-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
