@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "m/029KunjZ6Dkm2m2crjpLNXTDr6bs/RphUCtPIgUMU7bhcVgqH2zk+DcKYsHCa8l/KVaxBdVjPKkpjFPjO71g==",
+  "dgSpecHash": "2CYSNzL+oArov7ssocqdBG1ISbMFtfWQJHz4NkzTq4byk+ok4zR1JAxgg4zcBbcvDpkXyohU8CMDzgLYp8rAFg==",
   "success": true,
-  "projectFilePath": "C:\\WORK\\Afstuderen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj",
+  "projectFilePath": "D:\\dev\\fun\\search-engine-toeslagen\\central-search-engine-toeslagen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\wp_lansy00.PPC0936175\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\yanni\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

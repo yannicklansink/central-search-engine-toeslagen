@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WORK\\Afstuderen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj": {}
+    "D:\\dev\\fun\\search-engine-toeslagen\\central-search-engine-toeslagen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj": {}
   },
   "projects": {
-    "C:\\WORK\\Afstuderen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj": {
+    "D:\\dev\\fun\\search-engine-toeslagen\\central-search-engine-toeslagen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WORK\\Afstuderen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj",
+        "projectUniqueName": "D:\\dev\\fun\\search-engine-toeslagen\\central-search-engine-toeslagen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj",
         "projectName": "langserve-client-console-app",
-        "projectPath": "C:\\WORK\\Afstuderen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj",
-        "packagesPath": "C:\\Users\\wp_lansy00.PPC0936175\\.nuget\\packages\\",
-        "outputPath": "C:\\WORK\\Afstuderen\\langserve-client-console-app\\langserve-client-console-app\\obj\\",
+        "projectPath": "D:\\dev\\fun\\search-engine-toeslagen\\central-search-engine-toeslagen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj",
+        "packagesPath": "C:\\Users\\yanni\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\fun\\search-engine-toeslagen\\central-search-engine-toeslagen\\langserve-client-console-app\\langserve-client-console-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\wp_lansy00.PPC0936175\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
