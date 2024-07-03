@@ -4,3 +4,15 @@
 
 azure-functions
 azure-storage-blob
+langchain
+langchain-pinecone
+langchain-openai
+# langchain-community
+# pinecone-notebooks
+# sentence-transformers
+unstructured-client
+unstructured
+pinecone-client
+openai
+psutil
+python-dotenv
