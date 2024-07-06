@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = langserve_client_console_app
-build_property.ProjectDir = D:\dev\fun\search-engine-toeslagen\central-search-engine-toeslagen\langserve-client-console-app\langserve-client-console-app\
+build_property.ProjectDir = C:\WORK\central-search-engine-toeslagen\langserve-client-console-app\langserve-client-console-app\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
