@@ -55,19 +55,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lansy00\\.nuget\\packages\\": {}
+    "C:\\Users\\yanni\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WORK\\central-search-engine-toeslagen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj",
+      "projectUniqueName": "D:\\dev\\fun\\search-engine-toeslagen\\central-search-engine-toeslagen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj",
       "projectName": "langserve-client-console-app",
-      "projectPath": "C:\\WORK\\central-search-engine-toeslagen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj",
-      "packagesPath": "C:\\Users\\lansy00\\.nuget\\packages\\",
-      "outputPath": "C:\\WORK\\central-search-engine-toeslagen\\langserve-client-console-app\\langserve-client-console-app\\obj\\",
+      "projectPath": "D:\\dev\\fun\\search-engine-toeslagen\\central-search-engine-toeslagen\\langserve-client-console-app\\langserve-client-console-app\\langserve-client-console-app.csproj",
+      "packagesPath": "C:\\Users\\yanni\\.nuget\\packages\\",
+      "outputPath": "D:\\dev\\fun\\search-engine-toeslagen\\central-search-engine-toeslagen\\langserve-client-console-app\\langserve-client-console-app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lansy00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -88,11 +88,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -115,30 +110,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

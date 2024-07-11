@@ -1,0 +1,29 @@
+﻿@page "/retriever"
+@inject MyRAGService RAGService
+@rendermode InteractiveServer
+
+<PageTitle>RAG Invoke</PageTitle>
+
+<h3>Invoke RAG Service</h3>
+
+<input @bind="inputText" placeholder="Enter input" />
+<button @onclick="InvokeRAGService">Invoke</button>
+
+<p>@outputText</p>
+
+@code {
+    private string inputText = string.Empty;
+    private string outputText = string.Empty;
+
+    private async Task InvokeRAGService()
+    {
+        try
+        {
+            outputText = await RAGService.InvokeRAGAsync(inputText);
+        }
+        catch (Exception ex)
+        {
+            outputText = $"Error: {ex.Message}";
+        }
+    }
+}
