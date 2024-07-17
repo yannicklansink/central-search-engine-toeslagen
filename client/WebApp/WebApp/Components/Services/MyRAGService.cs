@@ -1,4 +1,5 @@
-﻿using System.Net.Http;
+﻿using Microsoft.AspNetCore.StaticFiles;
+using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -12,19 +13,34 @@ public class MyRAGService
         _httpClient = httpClientFactory.CreateClient("RAGClient");
     }
 
-    public async Task<string> InvokeRAGAsync(string input)
+    public async Task StreamRAGAsync(string input, Func<string, Task> onChunkReceived)
     {
-        var data = new { input = input };
-        var json = JsonSerializer.Serialize(data);
+        var requestData = new { input = input };
+        var json = JsonSerializer.Serialize(requestData);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-        var response = await _httpClient.PostAsync("/RAG/invoke", content);
+        var request = new HttpRequestMessage(HttpMethod.Post, "/RAG/stream")
+        {
+            Content = content
+        };
+
+        var response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
 
         if (response.IsSuccessStatusCode)
         {
-            var responseContent = await response.Content.ReadAsStringAsync();
-            var parsedResponse = JsonSerializer.Deserialize<JsonElement>(responseContent);
-            return parsedResponse.GetProperty("output").GetString();
+            var stream = await response.Content.ReadAsStreamAsync();
+            using (var reader = new StreamReader(stream))
+            {
+                while (!reader.EndOfStream)
+                {
+                    var chunk = await reader.ReadLineAsync();
+                    if (!string.IsNullOrEmpty(chunk) && chunk.StartsWith("data: "))
+                    {
+                        var chunkData = chunk.Substring(6);
+                        await onChunkReceived(chunkData);
+                    }
+                }
+            }
         }
         else
         {
