@@ -21,9 +21,6 @@ Ensure these are set:
 - PINECONE_INDEX_NAME
 - OPENAI_API_KEY
 
-Note: the choice of embedding model may require additional API keys, such as:
-
-- COHERE_API_KEY
 
 ### Notebook
 
@@ -96,17 +93,7 @@ Run locally
 poetry run langchain serve
 ```
 
-**(3) Deploy it with hosted LangServe**
-
-Go to your LangSmith console.
-
-Select `New Deployment`.
-
-Specify this Github url.
-
-Add the abovementioned API keys as secrets.
-
-### Poetry commando's
+## Poetry commando's
 
 Hier zijn enkele veelvoorkomende Poetry-commando's met een korte beschrijving van wat ze doen:
 

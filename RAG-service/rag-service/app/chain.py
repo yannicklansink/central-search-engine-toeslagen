@@ -17,15 +17,11 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 
 load_dotenv()
 
-# os.environ['LANGCHAIN_TRACING_V2'] = os.getenv('LANGCHAIN_TRACING_V2')
-# os.environ['LANGCHAIN_ENDPOINT'] = os.getenv('LANGCHAIN_ENDPOINT')
-# os.environ['LANGCHAIN_API_KEY'] = os.getenv('LANGCHAIN_API_KEY')
-
 # Keys
 PINECONE_API_KEY = os.environ["PINECONE_API_KEY"]
-PINECONE_INDEX_NAME = "langchain-unstructured-data"
+PINECONE_INDEX_NAME = os.environ["PINECONE_INDEX_NAME"]
 
-pinecone = PineconeClient(api_key=PINECONE_API_KEY)
+# pinecone = PineconeClient(api_key=PINECONE_API_KEY)
 
 embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
 # embeddings = CohereEmbeddings(model="multilingual-22-12")
@@ -54,14 +50,16 @@ model = ChatOpenAI(temperature=0, model="gpt-4-1106-preview", streaming=True)
 # )
 
 # # RAG prompt
-template = """Answer the question based only on the following context. 
-              Give back the sources filenames you received at the end in bullet points. 
-              Also give the page number if it's available behind the filename:
+template = """Beantwoord de vraag uitsluitend op basis van de volgende context.
+                Geef daarnaast ook aan het einde de bestandsnamen van de bronnen die je hebt ontvangen terug in bullet points,
+                met daarbij het paginanummer als dit beschikbaar is achter de bestandsnaam.
+
 {context}
 Question: {question}
 """
 prompt = ChatPromptTemplate.from_template(template)
 
+# Chain is de runnable that will be executed
 chain = (
     # RunnableParallel({"context": retriever, "question": RunnablePassthrough()})
     {

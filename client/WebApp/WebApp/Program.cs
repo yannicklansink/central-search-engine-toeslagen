@@ -1,6 +1,17 @@
 using WebApp.Client.Pages;
 using WebApp.Components;
 
+// Azure blob usings:
+using Azure.Storage.Blobs;
+using Azure.Storage.Blobs.Models;
+using System;
+using System.IO;
+using Azure.Identity;
+using WebApp.Components.Services;
+using Microsoft.AspNetCore.Http.Features;
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -23,6 +34,12 @@ builder.Services.AddHttpClient("RAGClient", client =>
 });
 
 builder.Services.AddSingleton<MyRAGService>();
+builder.Services.AddScoped<BlobService>();
+
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.MultipartBodyLengthLimit = 10 * 1024 * 1024; // 10 MB
+});
 
 var app = builder.Build();
 

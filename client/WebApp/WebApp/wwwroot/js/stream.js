@@ -7,5 +7,3 @@ window.updateOutput = (chunk) => {
 };
 
 // een functie window.updateOutput die gebruikt wordt om de inhoud van een HTML-element met het id output bij te werken.
-
-

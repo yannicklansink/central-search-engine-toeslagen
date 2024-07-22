@@ -1,0 +1,72 @@
+﻿@page "/upload"
+
+@rendermode InteractiveServer
+
+@inject IJSRuntime JS
+@inject WebApp.Components.Services.BlobService BlobService
+
+<h3>Upload</h3>
+
+<InputFile OnChange="HandleFileSelected" accept=".txt,.pdf,.html" />
+<button @onclick="UploadFile">Upload</button>
+
+@if (!string.IsNullOrEmpty(uploadResult))
+{
+    <p>@uploadResult</p>
+}
+
+@if (selectedFile != null)
+{
+    <p>Selected file: @selectedFile.Name</p>
+}
+
+@code {
+    private IBrowserFile? selectedFile;
+    private string? uploadResult;
+
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        Console.WriteLine("handlefileselected");
+        await JS.InvokeVoidAsync("logger.log", "Trigger upload file");
+        selectedFile = e.File;
+        StateHasChanged(); // Forceer een her-rendering om de geselecteerde bestand weer te geven
+    }
+
+    private async Task UploadFile()
+    {
+        Console.WriteLine("UploadFile.");
+        try
+        {
+            if (selectedFile != null)
+            {
+                Console.WriteLine($"Selected file name: {selectedFile.Name}");
+                Console.WriteLine($"Selected file size: {selectedFile.Size} bytes");
+
+                var tempFilePath = Path.GetTempFileName();
+                using (var stream = selectedFile.OpenReadStream(maxAllowedSize: 10 * 1024 * 1024)) // maxAllowedSize is 10MB
+                using (var fileStream = new FileStream(tempFilePath, FileMode.Create))
+                {
+                    Console.WriteLine("Starting copy...");
+                    await stream.CopyToAsync(fileStream);
+                    Console.WriteLine("Copy completed.");
+                }
+
+                await BlobService.UploadFromFileAsync(tempFilePath, selectedFile.Name);
+                uploadResult = $"File '{selectedFile.Name}' uploaded successfully.";
+            }
+            else
+            {
+                uploadResult = "Please select a file to upload.";
+            }
+        }
+        catch (Exception ex)
+        {
+            uploadResult = $"Error uploading file: {ex.Message}";
+            Console.WriteLine($"Error: {ex}");
+        }
+        finally
+        {
+            StateHasChanged();
+        }
+    }
+}

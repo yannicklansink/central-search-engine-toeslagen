@@ -3,52 +3,79 @@
   "WorkspaceRootPath": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\upload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\upload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\rag.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\rag.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\wwwroot\\js\\stream.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\stream.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\services\\myragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\services\\myragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\wwwroot\\js\\logger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\logger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FD6F941-2564-47AA-A8E6-848B2DC9AA93}|WebApp.Client\\WebApp.Client.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1FD6F941-2564-47AA-A8E6-848B2DC9AA93}|WebApp.Client\\WebApp.Client.csproj|solutionrelative:webapp.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\wwwroot\\js\\stream.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\stream.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lansy00\\AppData\\Local\\Temp\\TFSTemp\\vctmp16672_575666.Rag.00000000.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD6F941-2564-47AA-A8E6-848B2DC9AA93}|WebApp.Client\\WebApp.Client.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FD6F941-2564-47AA-A8E6-848B2DC9AA93}|WebApp.Client\\WebApp.Client.csproj|solutionrelative:webapp.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -67,24 +94,16 @@
       "RelativeMoniker": "D:0:0:{1FD6F941-2564-47AA-A8E6-848B2DC9AA93}|WebApp.Client\\WebApp.Client.csproj|solutionrelative:webapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1FD6F941-2564-47AA-A8E6-848B2DC9AA93}|WebApp.Client\\WebApp.Client.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp.client\\webapp.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1FD6F941-2564-47AA-A8E6-848B2DC9AA93}|WebApp.Client\\WebApp.Client.csproj|solutionrelative:webapp.client\\webapp.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,8 +113,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T11:27:40.54Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlobService.cs",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\BlobService.cs",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Services\\BlobService.cs",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\BlobService.cs",
+              "RelativeToolTip": "WebApp\\Components\\Services\\BlobService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA7wBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:52:24.242Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Upload.razor",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Upload.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Upload.razor",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Upload.razor",
+              "RelativeToolTip": "WebApp\\Components\\Pages\\Upload.razor",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T09:12:45.897Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
@@ -106,71 +167,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "stream.js",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\stream.js",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\stream.js",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\stream.js",
-              "RelativeToolTip": "WebApp\\wwwroot\\js\\stream.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "logger.js",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\logger.js",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
+              "RelativeToolTip": "WebApp\\wwwroot\\js\\logger.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-16T14:54:08.16Z",
+              "WhenOpened": "2024-07-22T13:34:02.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyRAGService.cs",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\MyRAGService.cs",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Services\\MyRAGService.cs",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\MyRAGService.cs",
-              "RelativeToolTip": "WebApp\\Components\\Services\\MyRAGService.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAuwCkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T14:08:46.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\App.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\App.razor",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\App.razor",
-              "RelativeToolTip": "WebApp\\Components\\App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T11:17:29.525Z",
+              "DocumentIndex": 10,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-22T13:19:55.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApp\\appsettings.json",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\appsettings.json",
-              "RelativeToolTip": "WebApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-11T14:07:20.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Rag.razor",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Rag.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Rag.razor",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Rag.razor",
-              "RelativeToolTip": "WebApp\\Components\\Pages\\Rag.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T14:35:00.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Routes.razor",
@@ -178,171 +201,24 @@
               "RelativeToolTip": "WebApp\\Components\\Routes.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T11:17:31.41Z",
+              "WhenOpened": "2024-07-11T11:17:31.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rag.razor",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Rag.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Rag.razor",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Rag.razor",
+              "RelativeToolTip": "WebApp\\Components\\Pages\\Rag.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T14:35:00.973Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\_Imports.razor",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\_Imports.razor",
-              "RelativeToolTip": "WebApp\\Components\\_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T11:17:34.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "WebApp\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T11:18:33.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Error.razor",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Error.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Error.razor",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Error.razor",
-              "RelativeToolTip": "WebApp\\Components\\Pages\\Error.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T11:18:57.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "bootstrap.min.css",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
-              "RelativeToolTip": "WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-16T08:26:38.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainLayout.razor.css",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\MainLayout.razor.css",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeToolTip": "WebApp\\Components\\Layout\\MainLayout.razor.css",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwE8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-11T13:49:14.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "WebApp\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBQAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T12:08:11.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "WebApp.Client\\Pages\\Counter.razor",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\Pages\\Counter.razor",
-              "RelativeToolTip": "WebApp.Client\\Pages\\Counter.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T11:17:14.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "WebApp\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAIwAQAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T11:23:50.729Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\_Imports.razor",
-              "RelativeDocumentMoniker": "WebApp.Client\\_Imports.razor",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\_Imports.razor",
-              "RelativeToolTip": "WebApp.Client\\_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T11:19:36.146Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\Program.cs",
-              "RelativeDocumentMoniker": "WebApp.Client\\Program.cs",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\Program.cs",
-              "RelativeToolTip": "WebApp.Client\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T11:58:01.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Program.cs",
-              "RelativeDocumentMoniker": "WebApp\\Program.cs",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Program.cs",
-              "RelativeToolTip": "WebApp\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAIwDoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T11:27:40.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "WebApp.csproj",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\WebApp.csproj",
-              "RelativeDocumentMoniker": "WebApp\\WebApp.csproj",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\WebApp.csproj",
-              "RelativeToolTip": "WebApp\\WebApp.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-11T11:19:59.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "WebApp.Client.csproj",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\WebApp.Client.csproj",
-              "RelativeDocumentMoniker": "WebApp.Client\\WebApp.Client.csproj",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\WebApp.Client.csproj",
-              "RelativeToolTip": "WebApp.Client\\WebApp.Client.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-11T11:19:57.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebApp\\appsettings.Development.json",
@@ -354,13 +230,222 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "stream.js",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\stream.js",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\stream.js",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\stream.js",
+              "RelativeToolTip": "WebApp\\wwwroot\\js\\stream.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-16T14:54:08.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "WebApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T11:18:33.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "WebApp\\Components\\Pages\\Error.razor",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T11:18:57.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\App.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\App.razor",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\App.razor",
+              "RelativeToolTip": "WebApp\\Components\\App.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T11:17:29.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyRAGService.cs",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\MyRAGService.cs",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Services\\MyRAGService.cs",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\MyRAGService.cs",
+              "RelativeToolTip": "WebApp\\Components\\Services\\MyRAGService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T14:08:46.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WebApp.csproj",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\WebApp.csproj",
+              "RelativeDocumentMoniker": "WebApp\\WebApp.csproj",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\WebApp.csproj",
+              "RelativeToolTip": "WebApp\\WebApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-11T11:19:59.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "vctmp16672_575666.Rag.00000000.razor",
+              "DocumentMoniker": "C:\\Users\\lansy00\\AppData\\Local\\Temp\\TFSTemp\\vctmp16672_575666.Rag.00000000.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\lansy00\\AppData\\Local\\Temp\\TFSTemp\\vctmp16672_575666.Rag.00000000.razor",
+              "ToolTip": "C:\\Users\\lansy00\\AppData\\Local\\Temp\\TFSTemp\\vctmp16672_575666.Rag.00000000.razor",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\lansy00\\AppData\\Local\\Temp\\TFSTemp\\vctmp16672_575666.Rag.00000000.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T09:58:44.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApp\\appsettings.json",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\appsettings.json",
+              "RelativeToolTip": "WebApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-11T14:07:20.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\libman.json",
+              "RelativeDocumentMoniker": "WebApp\\libman.json",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\libman.json",
+              "RelativeToolTip": "WebApp\\libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T11:58:56.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "WebApp\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-11T13:49:14.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "WebApp\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T12:08:11.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\_Imports.razor",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\_Imports.razor",
+              "RelativeToolTip": "WebApp\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T11:17:34.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "WebApp.Client\\Pages\\Counter.razor",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\Pages\\Counter.razor",
+              "RelativeToolTip": "WebApp.Client\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T11:17:14.15Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "WebApp\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwAQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T11:23:50.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "WebApp.Client\\_Imports.razor",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\_Imports.razor",
+              "RelativeToolTip": "WebApp.Client\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T11:19:36.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp.Client\\Program.cs",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\Program.cs",
+              "RelativeToolTip": "WebApp.Client\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T11:58:01.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WebApp.Client.csproj",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\WebApp.Client.csproj",
+              "RelativeDocumentMoniker": "WebApp.Client\\WebApp.Client.csproj",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\WebApp.Client.csproj",
+              "RelativeToolTip": "WebApp.Client\\WebApp.Client.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-11T11:19:57.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "NavMenu.razor.css",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\NavMenu.razor.css",
               "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\NavMenu.razor.css",
               "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\NavMenu.razor.css",
               "RelativeToolTip": "WebApp\\Components\\Layout\\NavMenu.razor.css",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAbAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwCEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-07-11T14:00:57.745Z"
             }

@@ -1,8 +1,26 @@
 ﻿@page "/"
+@rendermode InteractiveServer
 
+@inject IJSRuntime JS
 <PageTitle>Home</PageTitle>
 
 
 <h1>Hello, world!</h1>
 
+<button @onclick="ButtonAsync">Click em</button>
 Welcome to your new app.
+
+@code{
+
+    protected override void OnInitialized()
+    {
+        Console.WriteLine("yess");
+        
+    }
+
+    private async Task ButtonAsync() 
+    {
+        Console.WriteLine("test");
+        await JS.InvokeVoidAsync("logger.log", "Trigger button homescreen test");
+    }
+}
