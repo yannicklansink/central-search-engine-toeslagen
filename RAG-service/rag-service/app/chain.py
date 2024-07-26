@@ -30,7 +30,8 @@ vectorstore = Pinecone.from_existing_index(index_name=PINECONE_INDEX_NAME,
 
 retriever = vectorstore.as_retriever()
 
-model = ChatOpenAI(temperature=0, model="gpt-4-1106-preview", streaming=True)
+# model = ChatOpenAI(temperature=0, model="gpt-4-1106-preview", streaming=True)
+model = ChatOpenAI(temperature=0, model="gpt-4o-mini", streaming=True)
 
 # system_prompt = (
 #     "You are an assistant for question-answering tasks. "

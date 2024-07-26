@@ -9,6 +9,7 @@ using System.IO;
 using Azure.Identity;
 using WebApp.Components.Services;
 using Microsoft.AspNetCore.Http.Features;
+using Microsoft.JSInterop;
 
 
 
@@ -34,6 +35,7 @@ builder.Services.AddHttpClient("RAGClient", client =>
 });
 
 builder.Services.AddSingleton<MyRAGService>();
+builder.Services.AddScoped<ChatStateService>(); 
 builder.Services.AddScoped<BlobService>();
 
 builder.Services.Configure<FormOptions>(options =>

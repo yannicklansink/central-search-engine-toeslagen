@@ -1,12 +1,16 @@
 ﻿@page "/retriever"
+
 @inject MyRAGService RAGService
 @inject IJSRuntime JS
+
 @rendermode InteractiveServer
 
 <PageTitle>RAG Invoke</PageTitle>
 <div class="chat-wrapper">
     <div class="chat-container">
-        <div id="output" class="chat-output">@outputText</div>
+        <div id="output" class="chat-output">
+            @* De inhoud wordt door JavaScript gevuld. *@
+        </div>
     </div>
     <div class="chat-input">
         <input @bind="inputText" placeholder="Enter input" @oninput="EnableButton" />
@@ -34,6 +38,7 @@
         flex-direction: column;
         overflow-y: auto;
         padding: 10px;
+        margin-bottom: 50px;
         background-color: #ffffff;
     }
 
@@ -43,6 +48,7 @@
         overflow-y: auto;
         background-color: #ffffff;
         border-bottom: 1px solid #ccc;
+        white-space: pre-wrap; /* Preserve whitespace and line breaks */
     }
 
     .chat-input {
@@ -51,6 +57,11 @@
         padding: 10px;
         background-color: #fff;
         border-top: 1px solid #ccc;
+        position: fixed;
+        bottom: 0;
+        width: calc(100% - 2 * 10px); /* Full width minus padding */
+        max-width: 600px; /* Match the container's max-width */
+        box-sizing: border-box; /* Ensure padding is included in width calculation */
     }
 
         .chat-input input {
@@ -75,33 +86,48 @@
                 cursor: not-allowed;
             }
 </style>
+
 @code {
     private string inputText = string.Empty;
-    private string outputText = string.Empty;
     private bool isRequestInProgress = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("loadChatHistory");
+        }
+        await JS.InvokeVoidAsync("scrollToBottom");
+    }
 
     private async Task InvokeRAGService()
     {
         try
         {
             isRequestInProgress = true;
-            outputText = string.Empty;
+            var fullResponse = new StringBuilder();
+
             await RAGService.StreamRAGAsync(inputText, async (chunk) =>
             {
-                if (!string.IsNullOrEmpty(chunk) && !chunk.StartsWith("{") && !chunk.StartsWith("\\"))
+                if (!string.IsNullOrWhiteSpace(chunk) && !chunk.StartsWith("{") && !chunk.StartsWith("\\"))
                 {
                     var chunkData = chunk.Replace("\"", "").Replace("\\n", "\n");
+                    fullResponse.Append(chunkData);
                     await JS.InvokeVoidAsync("updateOutput", chunkData);
                 }
             });
+
+            var completeMessage = fullResponse.ToString();
+            await JS.InvokeVoidAsync("saveChatHistory", completeMessage);
         }
         catch (Exception ex)
         {
-            outputText = $"Error: {ex.Message}";
+            await JS.InvokeVoidAsync("updateOutput", $"Error: {ex.Message}");
         }
         finally
         {
             await JS.InvokeVoidAsync("updateOutput", "\n\n");
+            inputText = string.Empty;
             isRequestInProgress = false;
             StateHasChanged();
         }
@@ -112,3 +138,34 @@
         isRequestInProgress = false;
     }
 }
+
+<script>
+    window.scrollToBottom = () => {
+        const outputElement = document.getElementById('output');
+        if (outputElement) {
+            outputElement.scrollTop = outputElement.scrollHeight;
+        }
+    };
+
+    window.updateOutput = (chunk) => {
+        const outputElement = document.getElementById('output');
+        if (outputElement) {
+            outputElement.innerHTML += chunk;
+            window.saveChatHistory(outputElement.innerHTML); // Save the updated content to localStorage
+            outputElement.scrollTop = outputElement.scrollHeight;
+        }
+    };
+
+    window.saveChatHistory = (content) => {
+        localStorage.setItem('chatHistory', content);
+    };
+
+    window.loadChatHistory = () => {
+        const outputElement = document.getElementById('output');
+        const chatHistory = localStorage.getItem('chatHistory');
+        if (outputElement && chatHistory) {
+            outputElement.innerHTML = chatHistory;
+            outputElement.scrollTop = outputElement.scrollHeight;
+        }
+    };
+</script>
