@@ -28,27 +28,17 @@ embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
 vectorstore = Pinecone.from_existing_index(index_name=PINECONE_INDEX_NAME,
                                            embedding=embeddings)
 
-retriever = vectorstore.as_retriever()
+retriever = vectorstore.as_retriever(
+    search_type="similarity_score_threshold", 
+    search_kwargs={
+        "score_threshold": 0.85, 
+        "k": 3,
+        'filter': {'filename':'Report-yannick-lansink-pgesprek-pim-hofs.pdf'}
+        }
+)
 
-# model = ChatOpenAI(temperature=0, model="gpt-4-1106-preview", streaming=True)
+# modes to use: gpt-4o-mini, 
 model = ChatOpenAI(temperature=0, model="gpt-4o-mini", streaming=True)
-
-# system_prompt = (
-#     "You are an assistant for question-answering tasks. "
-#     "Use the following pieces of retrieved context to answer "
-#     "the question. If you don't know the answer, say that you "
-#     "don't know. Use three sentences maximum and keep the "
-#     "answer concise."
-#     "\n\n"
-#     "{context}"
-# )
-
-# prompt = ChatPromptTemplate.from_messages(
-#     [
-#         ("system", system_prompt),
-#         ("human", "{input}"),
-#     ]
-# )
 
 # # RAG prompt
 template = """Beantwoord de vraag uitsluitend op basis van de volgende context.

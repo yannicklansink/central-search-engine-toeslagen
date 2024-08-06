@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\rag.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\services\\myragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\services\\myragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\upload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\upload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\wwwroot\\js\\stream.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\stream.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -15,20 +27,8 @@
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\services\\chatstateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\wwwroot\\js\\logger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\logger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\upload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\upload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\services\\myragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\services\\myragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|c:\\work\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -130,18 +126,17 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T11:27:40.54Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "BlobService.cs",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\BlobService.cs",
               "RelativeDocumentMoniker": "WebApp\\Components\\Services\\BlobService.cs",
               "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\BlobService.cs",
               "RelativeToolTip": "WebApp\\Components\\Services\\BlobService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswBMAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T11:52:24.242Z",
               "IsPinned": true,
@@ -149,13 +144,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Upload.razor",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Upload.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Upload.razor",
               "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Upload.razor",
               "RelativeToolTip": "WebApp\\Components\\Pages\\Upload.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-22T09:12:45.897Z",
               "IsPinned": true,
@@ -169,7 +164,7 @@
               "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Rag.razor",
               "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Rag.razor",
               "RelativeToolTip": "WebApp\\Components\\Pages\\Rag.razor",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAQwH4AAAAPAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAAAG4AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-11T14:35:00.973Z",
               "IsPinned": true,
@@ -177,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ChatStateService.cs",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\ChatStateService.cs",
               "RelativeDocumentMoniker": "WebApp\\Components\\Services\\ChatStateService.cs",
@@ -186,21 +181,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T08:41:43.855Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\_Imports.razor",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\_Imports.razor",
-              "RelativeToolTip": "WebApp\\Components\\_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T09:15:54.517Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -212,6 +193,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\_Imports.razor",
+              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\_Imports.razor",
+              "RelativeToolTip": "WebApp\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T09:15:54.517Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Routes.razor",
@@ -220,8 +213,7 @@
               "RelativeToolTip": "WebApp\\Components\\Routes.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T11:17:31.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T11:17:31.41Z"
             },
             {
               "$type": "Document",
@@ -233,12 +225,11 @@
               "RelativeToolTip": "WebApp\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-11T14:09:51.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T14:09:51.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Home.razor",
@@ -246,18 +237,17 @@
               "RelativeToolTip": "WebApp\\Components\\Pages\\Home.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T11:18:33.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T11:18:33.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MyRAGService.cs",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\MyRAGService.cs",
               "RelativeDocumentMoniker": "WebApp\\Components\\Services\\MyRAGService.cs",
               "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\MyRAGService.cs",
               "RelativeToolTip": "WebApp\\Components\\Services\\MyRAGService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBMAAABHAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T14:08:46.663Z",
               "EditorCaption": ""
@@ -272,8 +262,7 @@
               "RelativeToolTip": "WebApp\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-11T14:07:20.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T14:07:20.791Z"
             },
             {
               "$type": "Document",
@@ -285,12 +274,11 @@
               "RelativeToolTip": "WebApp.Client\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T11:58:01.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T11:58:01.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Error.razor",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Error.razor",
@@ -302,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "stream.js",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\stream.js",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\stream.js",
@@ -310,12 +298,11 @@
               "RelativeToolTip": "WebApp\\wwwroot\\js\\stream.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-16T14:54:08.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T14:54:08.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "vctmp16672_575666.Rag.00000000.razor",
               "DocumentMoniker": "C:\\Users\\lansy00\\AppData\\Local\\Temp\\TFSTemp\\vctmp16672_575666.Rag.00000000.razor",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\lansy00\\AppData\\Local\\Temp\\TFSTemp\\vctmp16672_575666.Rag.00000000.razor",
@@ -327,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\App.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\App.razor",
@@ -339,20 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "logger.js",
-              "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\logger.js",
-              "ToolTip": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
-              "RelativeToolTip": "WebApp\\wwwroot\\js\\logger.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-22T13:34:02.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "WebApp.csproj",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\WebApp.csproj",
               "RelativeDocumentMoniker": "WebApp\\WebApp.csproj",
@@ -364,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
@@ -376,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "libman.json",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\libman.json",
               "RelativeDocumentMoniker": "WebApp\\libman.json",
@@ -388,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "MainLayout.razor.css",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\MainLayout.razor.css",
               "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\MainLayout.razor.css",
@@ -400,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\NavMenu.razor",
@@ -412,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "WebApp.Client\\Pages\\Counter.razor",
@@ -424,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\MainLayout.razor",
@@ -436,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\_Imports.razor",
               "RelativeDocumentMoniker": "WebApp.Client\\_Imports.razor",
@@ -448,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "WebApp.Client.csproj",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\WebApp.Client.csproj",
               "RelativeDocumentMoniker": "WebApp.Client\\WebApp.Client.csproj",
@@ -460,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "NavMenu.razor.css",
               "DocumentMoniker": "C:\\WORK\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Layout\\NavMenu.razor.css",
               "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\NavMenu.razor.css",
