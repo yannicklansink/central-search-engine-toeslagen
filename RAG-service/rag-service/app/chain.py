@@ -33,7 +33,7 @@ retriever = vectorstore.as_retriever(
     search_kwargs={
         "score_threshold": 0.85, 
         "k": 3,
-        'filter': {'filename':'Report-yannick-lansink-pgesprek-pim-hofs.pdf'}
+        # 'filter': {'filename':'Report-yannick-lansink-pgesprek-pim-hofs.pdf'}
         }
 )
 
@@ -42,8 +42,9 @@ model = ChatOpenAI(temperature=0, model="gpt-4o-mini", streaming=True)
 
 # # RAG prompt
 template = """Beantwoord de vraag uitsluitend op basis van de volgende context.
-                Geef daarnaast ook aan het einde de bestandsnamen van de bronnen die je hebt ontvangen terug in bullet points,
-                met daarbij het paginanummer als dit beschikbaar is achter de bestandsnaam.
+                Geef daarnaast ook aan het einde de bestandsnamen van de bronnen die je hebt ontvangen terug in bullet points, doe dit alleen als het relevante bestanden zijn,
+                met daarbij het paginanummer als dit beschikbaar is achter de bestandsnaam. Doe dat zoals dit:
+                - example.txt (p. 2)
 
 {context}
 Question: {question}
