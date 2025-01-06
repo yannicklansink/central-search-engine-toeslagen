@@ -15,20 +15,12 @@ using Microsoft.JSInterop;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// for enabling the
-//  - Interactive Server,
-//  - Interactive WebAssembly,
-//  - Interactive Auto
-// render modes:
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 
-// Load configuration from appsettings.json and appsettings.{Environment}.json
 var configuration = builder.Configuration;
 
-// Register the HttpClient
 builder.Services.AddHttpClient("RAGClient", client =>
 {
     client.BaseAddress = new Uri(configuration["HttpClientSettings:BaseUrl"]);

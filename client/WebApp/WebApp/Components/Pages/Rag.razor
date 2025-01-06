@@ -49,7 +49,7 @@
         overflow-y: auto;
         background-color: #ffffff;
         border-bottom: 1px solid #ccc;
-        white-space: pre-wrap; /* Preserve whitespace and line breaks */
+        white-space: pre-wrap; 
     }
 
     .chat-input {
@@ -60,9 +60,9 @@
         border-top: 1px solid #ccc;
         position: fixed;
         bottom: 0;
-        width: calc(100% - 2 * 10px); /* Full width minus padding */
-        max-width: 600px; /* Match the container's max-width */
-        box-sizing: border-box; /* Ensure padding is included in width calculation */
+        width: calc(100% - 2 * 10px); 
+        max-width: 600px;
+        box-sizing: border-box; 
     }
 
         .chat-input input {
@@ -152,7 +152,7 @@
         const outputElement = document.getElementById('output');
         if (outputElement) {
             outputElement.innerHTML += chunk;
-            window.saveChatHistory(outputElement.innerHTML); // Save the updated content to localStorage
+            window.saveChatHistory(outputElement.innerHTML); 
             outputElement.scrollTop = outputElement.scrollHeight;
         }
     };
