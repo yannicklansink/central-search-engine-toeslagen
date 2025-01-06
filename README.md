@@ -1,7 +1,8 @@
 # Project Requirements Document
 
-[Backend Structure](/2backend-structure-document.md)  
-[Tech Stack](/3tech-stack-document.md)
+[Technisch Ontwerp Document](/technisch-ontwerp-document.md.md)
+
+[Functioneel Ontwerp Document](/functioneel-ontwerp-document.md)
 
 ## Project Overzicht
 

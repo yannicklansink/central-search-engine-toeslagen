@@ -1,4 +1,4 @@
-# Backend Structure Document (RAG-Service)
+# Functioneel Ontwerp Document (RAG-Service)
 
 ## Overzicht
 
@@ -74,6 +74,6 @@ Azure Functions worden geactiveerd door triggers, zoals het uploaden van een bes
 LangSmith is een tool die wordt gebruikt voor het loggen en monitoren van API-aanroepen naar een Large Language Model (LLM). Het helpt bij het bijhouden van de keten van bewerkingen die worden uitgevoerd om een antwoord te genereren. Dit omvat het loggen van verzoeken, antwoorden en eventuele fouten die optreden tijdens de verwerking. Hierdoor kunnen ontwikkelaars beter inzicht krijgen in de prestaties en betrouwbaarheid van hun LLM-integraties.
 
 **Voorbeeldcode voor logging:**
-![alt text](./img/image.png)
+![alt text](/resources//img/image.png)
 
 Dit Backend Structure Document biedt een overzicht van de doelstellingen, technologieën, architectuur, API-specificaties, database-structuur, Azure Functions, en monitoring en logging van de RAG-service.
