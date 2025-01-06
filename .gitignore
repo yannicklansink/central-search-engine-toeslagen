@@ -5,6 +5,7 @@ __pycache__/
 .env
 .vs
 __pycache__
+*.tmp
 
 test_app.ipynb
 # ASP.NET Core
