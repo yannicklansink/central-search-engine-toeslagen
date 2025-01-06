@@ -1,6 +1,6 @@
 # Project Requirements Document
 
-[Technisch Ontwerp Document](/technisch-ontwerp-document.md.md)
+[Technisch Ontwerp Document](/technisch-ontwerp-document.md)
 
 [Functioneel Ontwerp Document](/functioneel-ontwerp-document.md)
 

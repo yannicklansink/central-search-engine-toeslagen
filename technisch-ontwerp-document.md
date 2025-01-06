@@ -1,4 +1,4 @@
-# Tech Stack Document (RAG-Service)
+# Technisch Ontwerp Document (RAG-Service)
 
 ## Overzicht
 
