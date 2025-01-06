@@ -1,0 +1,41 @@
+Zoals jullie weten ben ik aan het einde van mijn hbo opleiding en moet ik nog een afstudeer opdracht maken. Ik heb sinds ik in het team ben belandt tegen enkele problemen aangelopen waar ik van denk, "dat kan beter". 
+
+Ik ben zelf zeer geintresseerd in de laatste ontwikkelingen rondom machine learning modellen en wil daar graag ook iets mee gaan doen.
+
+Als je feedback hebt hoor ik het graag. Ook als je dit wel of geen goed idee vind en waarom.
+
+Probleem:
+Het is voor beginners moeilijk om te snappen waar over wordt gepraat of wat bepaalde componenten doen.
+
+Er is veel informatie ter beschikking wat het moeilijk maakt om de juiste informatie te vinden die je nodigt hebt. Denk daarbij aan het snel opzoeken van een bepaalde afkorting, of het snappen wat een component doet in het landschap, of de design pattern die wordt gebruikt
+
+Oplossing:
+Gebruik een centrale plek van informatie is opgeslagen door contextueel informatie op te halen met behulp van een vector database.
+
+Het idee hierachter is vrij eenvoudig: De gebruiker stelt een vraag die kan worden beantwoord met reeds bestaande informatie die ergens is opgeslagen. Het systeem antwoordt terug met behulp van de kennis die het systeem heeft gehaald uit de vector database met een similarity search (opzoek mechanisme om het de opgeslagen informatie te rangschikken op wat het meest overeen komt). Hierdoor krijgt de gebruiker direct het antwoord terug en het juiste document(en).
+
+Tools nodig:
+- Vector database (pinecone)
+- Embedding model (text-embedding-ada-002)
+- Query search algorithm (cosine similarity)
+- Chat completion (OpenAI Enterprise)
+- Gebruikers interface (angular)
+
+Security:
+Er hangen wat vraagstukken betreft gevoelige informatie dat wordt gedeelt met het bedrijf OpenAI. OpenAI is van Microsoft en heeft een enterprise edition.
+
+https://openai.com/blog/introducing-chatgpt-enterprise
+
+OpenAI legt hier de nadruk op privacy en security: "You own and control your business data in ChatGPT Enterprise. We do not train on your business data or conversations, and our models don’t learn from your usage. ChatGPT Enterprise is also SOC 2 compliant and all conversations are encrypted in transit and at rest..."
+
+Er is een mogelijkheid geen gebruik te maken van een Chat completion model. Hierdoor zal de software nog steeds met gebruik van een Embedding model sneller de gebruiker de juiste documenten kunnen geven. 
+
+
+
+
+
+Referencies:
+https://github.com/mckaywrigley/paul-graham-gpt
+
+
+
