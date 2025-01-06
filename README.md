@@ -1,5 +1,8 @@
 # Project Requirements Document
 
+[Backend Structure](/2backend-structure-document.md)  
+[Tech Stack](/3tech-stack-document.md)
+
 ## Project Overzicht
 
 **Doel van de App:**  
