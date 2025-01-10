@@ -130,8 +130,7 @@
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T11:27:40.54Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -144,8 +143,7 @@
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T11:52:24.242Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -158,8 +156,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-22T09:12:45.897Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -172,8 +169,7 @@
               "ViewState": "AQIAAGcAAAAAAAAAAAAAAG4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-11T14:35:00.973Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -186,21 +182,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T08:41:43.855Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "logger.js",
-              "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\logger.js",
-              "ToolTip": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
-              "RelativeToolTip": "WebApp\\wwwroot\\js\\logger.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-20T11:38:23.037Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -212,13 +194,25 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "logger.js",
+              "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\logger.js",
+              "ToolTip": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
+              "RelativeToolTip": "WebApp\\wwwroot\\js\\logger.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-20T11:38:23.037Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MyRAGService.cs",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\MyRAGService.cs",
               "RelativeDocumentMoniker": "WebApp\\Components\\Services\\MyRAGService.cs",
               "ToolTip": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\MyRAGService.cs",
               "RelativeToolTip": "WebApp\\Components\\Services\\MyRAGService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T14:08:46.663Z",
               "EditorCaption": ""
@@ -233,8 +227,7 @@
               "RelativeToolTip": "WebApp\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-11T14:07:20.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T14:07:20.791Z"
             },
             {
               "$type": "Document",
@@ -246,8 +239,7 @@
               "RelativeToolTip": "WebApp\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-11T14:09:51.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T14:09:51.889Z"
             },
             {
               "$type": "Document",
@@ -259,8 +251,7 @@
               "RelativeToolTip": "WebApp\\wwwroot\\app.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-20T11:38:28.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T11:38:28.246Z"
             },
             {
               "$type": "Document",
