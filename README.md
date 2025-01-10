@@ -4,6 +4,8 @@
 
 [Functioneel Ontwerp Document](/functioneel-ontwerp-document.md)
 
+Technische uitleg: https://www.youtube.com/watch?v=Gk66Wk0aq-c
+
 ## Project Overzicht
 
 **Doel van de App:**  

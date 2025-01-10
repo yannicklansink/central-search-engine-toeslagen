@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\services\\myragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\services\\myragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\upload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\upload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\rag.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\rag.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\upload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\upload.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\services\\myragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\services\\myragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1FD6F941-2564-47AA-A8E6-848B2DC9AA93}|WebApp.Client\\WebApp.Client.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FD6F941-2564-47AA-A8E6-848B2DC9AA93}|WebApp.Client\\WebApp.Client.csproj|solutionrelative:webapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -117,11 +117,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Program.cs",
               "RelativeDocumentMoniker": "WebApp\\Program.cs",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BlobService.cs",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\BlobService.cs",
               "RelativeDocumentMoniker": "WebApp\\Components\\Services\\BlobService.cs",
@@ -147,33 +147,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Upload.razor",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Upload.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Upload.razor",
               "ToolTip": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Upload.razor",
               "RelativeToolTip": "WebApp\\Components\\Pages\\Upload.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAABQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-22T09:12:45.897Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Rag.razor",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Rag.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Rag.razor",
               "ToolTip": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Rag.razor",
               "RelativeToolTip": "WebApp\\Components\\Pages\\Rag.razor",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAAAG4AAAArAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAAG4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-11T14:35:00.973Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ChatStateService.cs",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\ChatStateService.cs",
               "RelativeDocumentMoniker": "WebApp\\Components\\Services\\ChatStateService.cs",
@@ -194,19 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "logger.js",
-              "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\logger.js",
-              "ToolTip": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
-              "RelativeToolTip": "WebApp\\wwwroot\\js\\logger.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-20T11:38:23.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MyRAGService.cs",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\MyRAGService.cs",
               "RelativeDocumentMoniker": "WebApp\\Components\\Services\\MyRAGService.cs",
@@ -219,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\appsettings.json",
               "RelativeDocumentMoniker": "WebApp\\appsettings.json",
@@ -231,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebApp\\appsettings.Development.json",
@@ -243,7 +233,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "WebApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T11:18:33.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "logger.js",
+              "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\logger.js",
+              "ToolTip": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
+              "RelativeToolTip": "WebApp\\wwwroot\\js\\logger.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-20T11:38:23.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "app.css",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\app.css",
@@ -255,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Counter.razor",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "WebApp.Client\\Pages\\Counter.razor",
@@ -267,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "App.razor",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\App.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\App.razor",
@@ -279,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp.Client\\Program.cs",
               "RelativeDocumentMoniker": "WebApp.Client\\Program.cs",
@@ -291,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_Imports.razor",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\_Imports.razor",
@@ -303,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Routes.razor",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Routes.razor",
@@ -312,18 +327,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-11T11:17:31.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Home.razor",
-              "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Home.razor",
-              "ToolTip": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "WebApp\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T11:18:33.307Z"
             },
             {
               "$type": "Document",

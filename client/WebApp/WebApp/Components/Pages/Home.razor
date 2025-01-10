@@ -2,14 +2,104 @@
 @rendermode InteractiveServer
 
 @inject IJSRuntime JS
+
 <PageTitle>Home</PageTitle>
 
+<div class="container">
+    <header class="header">
+        <h1>Welkom bij de RAG-Service</h1>
+        <p>Een innovatieve chatapplicatie voor IBS Toeslagen</p>
+    </header>
 
-<h1>Hello, world!</h1>
+    <section class="video-section">
+        <h2>Technische uitleg over de web app</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Gk66Wk0aq-c" frameborder="0" allowfullscreen></iframe>
+            @* https://www.youtube.com/watch?v=Gk66Wk0aq-c *@
+        </div>
+    </section>
 
-Welcome to your new app.
+    <section class="intro-section">
+        <h2>Over de auteur</h2>
+        <p>Yannick Lansink is een software ontwikkelaar binnen Toeslagen. Hij heeft een passie voor ontwikkelen en wil zich meer specialiseren in de Artificial intelligence (AI) wereld. Met dit project wilt hij zijn bachelor of science halen aan NOVI-hogeschool</p>
+    </section>
 
-@code{
+    <section class="project-section">
+        <h2>Over het Project</h2>
+        <p>De RAG-Service is ontworpen om medewerkers van Integratie Business Services (IBS) Toeslagen te ondersteunen bij het vinden van informatie. Door gebruik te maken van een redeneringsmodel, een vector database en een Large Language Model (LLM), kan de applicatie complexe vraagstukken direct en nauwkeurig beantwoorden voor medewerkers binnen Toeslagen.</p>
+        <h3>Gebruikte Tools en Technologieën</h3>
+        <ul>
+            <li>Blazor WebAssembly voor de frontend</li>
+            <li>FastAPI voor de backend</li>
+            <li>Pinecone voor de vector database</li>
+            <li>OpenAI voor embeddings en LLM</li>
+            <li>Azure Blob Storage voor documentopslag</li>
+        </ul>
+    </section>
+</div>
 
-    
+<style>
+    .container {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+    .video-section, .intro-section, .project-section {
+        margin-bottom: 40px;
+    }
+
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+    }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+    .intro-section p, .project-section p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    .project-section ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+        .project-section ul li {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #333;
+        }
+</style>
+
+@code {
+    // Hier kun je eventuele C# code toevoegen als dat nodig is
 }
