@@ -117,4 +117,4 @@ LangSmith is een tool die wordt gebruikt voor het loggen en monitoren van API-aa
 **Voorbeeldcode voor logging:**
 ![alt text](/resources//img/image.png)
 
-Dit Backend Structure Document biedt een overzicht van de doelstellingen, technologieën, architectuur, API-specificaties, database-structuur, Azure Functions, en monitoring en logging van de RAG-service.
+Dit functioneel ontwerp biedt een overzicht van de doelstellingen, technologieën, architectuur, API-specificaties, database-structuur, Azure Functions, en monitoring en logging van de RAG-service.
