@@ -47,7 +47,7 @@
 
 ## Technische Infrastructuur
 
-### Frontend
+### <span style="color: darkgoldenrod;">Frontend</span>
 
 ### UML Class Diagram van de Frontend
 
@@ -119,7 +119,7 @@
 
 - .NET SDK: Voor het bouwen en publiceren van de Blazor WebAssembly applicatie.
 
-### Backend
+### <span style="color: darkgoldenrod;">Backend</span>
 
 ### UML Class Diagram van de Backend Service
 
@@ -180,7 +180,7 @@
 
 - Pinecone: Voor het opslaan en doorzoeken van vectorrepresentaties van documenten.
 
-### Hosting
+### <span style="color: darkgoldenrod;">Hosting en Azure function</span>
 
 **Azure Functie:**
 
