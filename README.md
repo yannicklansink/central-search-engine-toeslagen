@@ -39,13 +39,28 @@ De chatapplicatie is ontworpen om medewerkers van Integratie Business Services (
 - Opslag en ophalen van chatgeschiedenis
 - Integratie met Pinecone vector database en OpenAI embeddings
 
-### Functionaliteiten
+### Kern Functionaliteiten
 
-- Real-time chat met ondersteuning voor complexe vraagstukken
-- Documenten uploaden en opslaan in Azure Blob Storage
-- Genereren van embeddings voor documenten
-- Zoeken in de vector database op basis van embeddings
-- Opslaan en ophalen van chatgeschiedenis in de browser
+Documentbeheer en Slimme Opslag
+
+Functionaliteit: Klanten kunnen documenten uploaden, die veilig worden opgeslagen in een schaalbare Azure Blob Storage. Deze documenten worden automatisch geanalyseerd en voorbereid voor verdere verwerking.
+Klantvraag: "Hoe kan ik mijn documenten veilig opslaan en eenvoudig terugvinden?"
+Realtime Vraag-Antwoord API
+
+Functionaliteit: De frontend verwerkt vragen van klanten via API-endpoints die direct relevante informatie uit documenten halen en terugsturen naar de gebruiker.
+Klantvraag: "Kan ik vragen stellen over mijn documenten en snel antwoorden krijgen?"
+Slimme Document Zoekfunctie
+
+Functionaliteit: Klanten kunnen zoeken in documenten met behulp van een krachtige vector-gebaseerde zoekfunctionaliteit, waarmee semantische overeenkomsten worden gevonden, zelfs als trefwoorden niet exact overeenkomen.
+Klantvraag: "Hoe kan ik snel informatie vinden in mijn documenten, zelfs als ik niet weet hoe het exact is geformuleerd?"
+Automatische Documentanalyse met Embeddings
+
+Functionaliteit: Bij het uploaden worden documenten automatisch geanalyseerd en embeddings gegenereerd met behulp van AI (OpenAI). Dit maakt semantische zoekopdrachten en geavanceerde data-extractie mogelijk.
+Klantvraag: "Kan het systeem automatisch patronen of verbanden in mijn documenten herkennen?"
+Persoonlijke Chatervaring met Geschiedenis
+
+Functionaliteit: Klanten kunnen chatgesprekken voeren die specifieke informatie uit hun documenten halen. De chatgeschiedenis wordt lokaal opgeslagen zodat gebruikers kunnen terugkijken zonder zorgen over privacy.
+Klantvraag: "Kan ik een gepersonaliseerde chatervaring hebben met toegang tot mijn eerdere vragen en antwoorden?"
 
 ## Technische Specificaties
 

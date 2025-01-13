@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp\\components\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82EF0420-C46A-462B-B833-28B537941071}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FD6F941-2564-47AA-A8E6-848B2DC9AA93}|WebApp.Client\\WebApp.Client.csproj|d:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\webapp\\webapp.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -117,11 +117,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Program.cs",
               "RelativeDocumentMoniker": "WebApp\\Program.cs",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "BlobService.cs",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\BlobService.cs",
               "RelativeDocumentMoniker": "WebApp\\Components\\Services\\BlobService.cs",
@@ -143,11 +143,12 @@
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T11:52:24.242Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Upload.razor",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Upload.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Upload.razor",
@@ -161,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Rag.razor",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Rag.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Rag.razor",
@@ -175,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ChatStateService.cs",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\ChatStateService.cs",
               "RelativeDocumentMoniker": "WebApp\\Components\\Services\\ChatStateService.cs",
@@ -196,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MyRAGService.cs",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Services\\MyRAGService.cs",
               "RelativeDocumentMoniker": "WebApp\\Components\\Services\\MyRAGService.cs",
@@ -209,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\appsettings.json",
               "RelativeDocumentMoniker": "WebApp\\appsettings.json",
@@ -221,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebApp\\appsettings.Development.json",
@@ -233,20 +234,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Home.razor",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Home.razor",
               "ToolTip": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "WebApp\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-11T11:18:33.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "logger.js",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\js\\logger.js",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\logger.js",
@@ -258,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "app.css",
               "DocumentMoniker": "D:\\dev\\fun\\eindopdracht-vector-database\\central-search-engine-toeslagen\\client\\WebApp\\WebApp\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\app.css",
