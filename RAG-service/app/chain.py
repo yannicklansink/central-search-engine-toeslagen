@@ -24,7 +24,6 @@ PINECONE_INDEX_NAME = os.environ["PINECONE_INDEX_NAME"]
 # pinecone = PineconeClient(api_key=PINECONE_API_KEY)
 
 embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
-# embeddings = CohereEmbeddings(model="multilingual-22-12")
 vectorstore = Pinecone.from_existing_index(index_name=PINECONE_INDEX_NAME,
                                            embedding=embeddings)
 
